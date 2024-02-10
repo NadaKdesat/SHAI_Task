@@ -95,7 +95,6 @@ print("Missing Values after cleaning:\n", missing_values_after_cleaning, end="\n
 print("Average Salary by Department:\n", avg_salary_by_dept, end="\n\n")
 print("Correlation between Year and Salary:", correlation)
 
-
 # 7. Summary of Insights: 
 '''
 After conducting various analyses on the provided salary dataset, several key insights have been uncovered:
