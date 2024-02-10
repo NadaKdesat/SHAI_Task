@@ -14,6 +14,7 @@ number_rows, number_columns = data.shape
 # number_columns = len(data.columns)
 
 # We can check the data type of all columns at once using pandas.DataFrame.dtypes
+data_types = data.dtypes
 # We can check for missing values in each column using pandas.DataFrame.isnull().sum()
 missing_values = data.isnull().sum()
 
